@@ -3,7 +3,7 @@ public class BaseMgr<T> where T : BaseMgr<T>, new()
 {
     private static T _instance;
 
-    public static T Instance
+    public static T instance
     {
         get
         {
